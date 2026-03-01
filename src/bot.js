@@ -133,4 +133,10 @@ async function main() {
   log('Bot is running. Game is open and earning points!');
 }
 
+main();    try { await restart(); } catch (_) {}
+  });
+
+  log('Bot is running. Game is open and earning points!');
+}
+
 main();
