@@ -1,0 +1,15 @@
+{
+  "name": "capybara-24-7-bot",
+  "version": "1.0.0",
+  "description": "Keeps Capybara Simulator open 24/7 on a cloud server to earn points passively",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
